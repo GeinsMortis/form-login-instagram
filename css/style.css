@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --primary: #fff;
+    --secondary: #FAFAFA;
+    --borda: #DBDBDB;
+    --botao1: #4CB5F9;
+    --botao2: #26A5F7;
+    --botao-hover: #1877F2;
+    --link1: #3851A5;
+    --link2: #00376B;
+    --span: #737373;
+    --borda-input: #a09d9d;
+}
+
+img {
+    width: 16%;
+    position: absolute;
+    top: 20%;
+}
+
+/* Formatando a caixa 1 */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+}
+
+.caixa {
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    border: 1px solid var(--borda);
+}
+
+.form .element1 {
+    display: block;
+    position: absolute;
+    top: 35.4%;
+    left: 40%;
+    width: 20%;
+    padding: 10px;
+    padding-left: 7px;
+    margin: 6px;
+    margin-right: 25px;
+    box-sizing: border-box;
+    background-color: var(--secondary);
+    border: none;
+    border: 1px solid var(--borda);
+    border-radius: 3px;
+    outline: none;
+}
+
+.form .element1:focus {
+    border-color: var(--borda-input);
+}
+
+.form .element2 {
+    display: block;
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    width: 20%;
+    padding: 10px;
+    padding-left: 7px;
+    margin: 6px;
+    margin-right: 25px;
+    box-sizing: border-box;
+    background-color: var(--secondary);
+    border: none;
+    border: 1px solid var(--borda);
+    border-radius: 3px;
+    outline: none;
+}
+
+.form .element2:focus {
+    border-color: var(--borda-input);
+}
+
+button {
+    position: absolute;
+    left: 40%;
+    width: 20%;
+    text-align: center;
+    font-size: 13px;
+    color: var(--primary);
+    padding: 9px;
+    padding-left: 7px;
+    margin: 6px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: none;
+    background-color: var(--botao1);
+}
+
+button:hover{
+    background-color: var(--botao-hover);
+    cursor: pointer;
+}
+
+/* Formatando linha abaixo do botão */
+
+.linha1 {
+    position: absolute;
+    left: 40.2%;
+    top: 60%;
+    width: 8.2%;
+    color: var(--borda);
+}
+
+span {
+    position: absolute;
+    left: 49.5%;
+    top: 58.6%;
+    font-size: 14px;
+    color: var(--span);
+}
+
+.linha2 {
+    position: absolute;
+    left: 52.3%;
+    top: 60%;
+    width: 8%;
+    color: var(--borda);
+}
+
+/* Formatando linha do login com facebook */
+
+.form-face {
+    position: absolute;
+    top: 66%;
+    left: 46%;
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--link1);
+}
+
+.icon {
+    position: absolute;
+    top: 65.8%;
+    left: 44%;
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--link2);
+}
+
+/* Formatando esqueceu a senha */
+
+.p-r {
+    position: absolute;
+    top: 73%;
+    left: 47%;
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--link2);
+}
+
+/* Formatando a caixa 2 */
+
+.caixa2 {
+    width: 350px;
+    height: 60px;
+    position: absolute;
+    bottom: 4%;
+    background-color: var(--primary);
+    border: 1px solid var(--borda);
+}
+
+.cx2 {
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    font-size: 15px;
+}
+
+.register {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--botao2);
+}
