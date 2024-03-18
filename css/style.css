@@ -178,7 +178,7 @@ span {
     width: 350px;
     height: 60px;
     position: absolute;
-    bottom: 4%;
+    bottom: 2.8%;
     background-color: var(--primary);
     border: 1px solid var(--borda);
 }
